@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="440" rx="12" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+  <text x="32" y="42" fill="#f8fafc" font-family="Segoe UI, Inter, sans-serif" font-size="20" font-weight="700">Handwritten Digit Recognition Engine — 10-Class Neural Benchmark</text>
+  <text x="32" y="66" fill="#94a3b8" font-family="Segoe UI, Inter, sans-serif" font-size="13">Optical Digit Tensors (Classes 0–9, N = 1,797) | 5-Fold Stratified Cross-Validation</text>
+  <rect x="32" y="84" width="12" height="12" rx="3" fill="#38bdf8"/>
+  <text x="50" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Macro ROC-AUC (OvR)</text>
+  <rect x="232" y="84" width="12" height="12" rx="3" fill="#34d399"/>
+  <text x="250" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Top-1 Accuracy</text>
+  <rect x="432" y="84" width="12" height="12" rx="3" fill="#a78bfa"/>
+  <text x="450" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Macro F1-Score</text>
+  <rect x="632" y="84" width="12" height="12" rx="3" fill="#fbbf24"/>
+  <text x="650" y="94" fill="#cbd5e1" font-family="Segoe UI, Inter, sans-serif" font-size="12" font-weight="600">Top-2 Accuracy</text>
+  <line x1="290.0" y1="115" x2="290.0" y2="397" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="290.0" y="417" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.00</text>
+  <line x1="420.0" y1="115" x2="420.0" y2="397" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="420.0" y="417" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.25</text>
+  <line x1="550.0" y1="115" x2="550.0" y2="397" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="550.0" y="417" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.50</text>
+  <line x1="680.0" y1="115" x2="680.0" y2="397" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="680.0" y="417" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">0.75</text>
+  <line x1="810.0" y1="115" x2="810.0" y2="397" stroke="#334155" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="810.0" y="417" fill="#64748b" font-family="Segoe UI, Inter, sans-serif" font-size="11" text-anchor="middle">1.00</text>
+  <text x="276" y="157" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="12.5" font-weight="600" text-anchor="end">Deep MLP (128-64 ReLU + Adam + L2)</text>
+  <text x="276" y="175" fill="#64748b" font-family="Consolas, monospace" font-size="11" text-anchor="end">Cross-Entropy Loss: 0.0608</text>
+  <rect x="290" y="125" width="519.8" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="817.8" y="136" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9996</text>
+  <rect x="290" y="143" width="511.6" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="809.6" y="154" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9839</text>
+  <rect x="290" y="161" width="511.6" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="809.6" y="172" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9838</text>
+  <rect x="290" y="179" width="518.0" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="816.0" y="190" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9961</text>
+  <text x="276" y="251" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="12.5" font-weight="600" text-anchor="end">Two-Layer MLP (Notebook 50-50 ReLU)</text>
+  <text x="276" y="269" fill="#64748b" font-family="Consolas, monospace" font-size="11" text-anchor="end">Cross-Entropy Loss: 0.0724</text>
+  <rect x="290" y="219" width="519.7" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="817.7" y="230" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9995</text>
+  <rect x="290" y="237" width="509.0" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="807.0" y="248" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9789</text>
+  <rect x="290" y="255" width="509.0" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="807.0" y="266" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9788</text>
+  <rect x="290" y="273" width="516.5" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="814.5" y="284" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9933</text>
+  <text x="276" y="345" fill="#f1f5f9" font-family="Segoe UI, Inter, sans-serif" font-size="12.5" font-weight="600" text-anchor="end">Multinomial Softmax Baseline</text>
+  <text x="276" y="363" fill="#64748b" font-family="Consolas, monospace" font-size="11" text-anchor="end">Cross-Entropy Loss: 0.1929</text>
+  <rect x="290" y="313" width="519.4" height="14" rx="3" fill="#38bdf8" opacity="0.92"/>
+  <text x="817.4" y="324" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9988</text>
+  <rect x="290" y="331" width="500.9" height="14" rx="3" fill="#34d399" opacity="0.92"/>
+  <text x="798.9" y="342" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9633</text>
+  <rect x="290" y="349" width="501.0" height="14" rx="3" fill="#a78bfa" opacity="0.92"/>
+  <text x="799.0" y="360" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9634</text>
+  <rect x="290" y="367" width="513.7" height="14" rx="3" fill="#fbbf24" opacity="0.92"/>
+  <text x="811.7" y="378" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11" font-weight="600">0.9878</text>
+</svg>
